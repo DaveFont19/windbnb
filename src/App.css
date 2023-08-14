@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}
+#star{
+    color: #eb5757;
+
+}
+.photos {
+    height: 17rem;
+    margin-right:0;
+}
+#location{
+    color: #4b5563;
+}
+li, #plus, #minus{
+    cursor: pointer;
+}
+#inputs{
+    display: flex;
+    width: 100vh;
+    justify-content: center;
+}
+.logo-inputs, .titles{
+    align-items: baseline;
+    justify-content: space-between;
+}
+.button-search{
+    background-color: white;
+}
+#lupa{
+    color: #eb5757;
+}
+.hide{
+    visibility:hidden;
+}
+#plus, #minus, #location{
+    color:#828282;
+    margin-right: .5rem;
+}
